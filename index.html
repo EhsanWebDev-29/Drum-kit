@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <h1>DRUM KIT</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="crash-cymbal key" data-key="KeyA"></div>
+            <div class="snare key" data-key="KeyS"></div>
+            <div class="bass-drum key" data-key="KeyD">
+                <div class="tom1 key" data-key="KeyF"></div>
+                <div class="tom2 key" data-key="KeyG"></div>
+            </div>
+            <div class="floor-tom key" data-key="KeyH"></div>
+            <div class="ride-cymbal key" data-key="KeyJ"></div>
+        </div>
+
+
+        <audio data-key="KeyA" src="./sound/crash.mp3"></audio>
+        <audio data-key="KeyS" src="./sound/snare.mp3"></audio>
+        <audio data-key="KeyD" src="./sound/boom.wav"></audio>
+        <audio data-key="KeyF" src="./sound/tom1.mp3"></audio>
+        <audio data-key="KeyG" src="./sound/tom2.mp3"></audio>
+        <audio data-key="KeyH" src="./sound/floor-tom.mp3"></audio>
+        <audio data-key="KeyJ" src="./sound/ride-cymbal.wav"></audio>
+    </main>
+    
+    <footer>
+      <div class="contact-list">
+        <h3>Contacts</h3>
+        <ul>
+          <li><a href="mailto:ehsan.webdev29@gmail.com"><img src="./images/gmail.png" alt="gmail logo"></a></li>
+          <li><a href="https://www.linkedin.com/in/ehsan-ahmad-1306a937b/"><img src="./images/linkedIn.png" alt="linkedIn-account logo"></a></li>
+        </ul>
+      </div>
+    <div class="copywright">
+        <p>© 2025 Made with ❤️ by <strong>Ehsan Ahmad</strong></p>
+    </div>
+    <a href="./resume/resume.pdf" download="Ehsan_Ahmad_Resume.pdf"><button id="resume">Resume</button></a>
+    </footer>
+      <script src="script.js"></script>
+  </body>
+</html>
